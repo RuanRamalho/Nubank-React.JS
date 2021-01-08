@@ -1,7 +1,6 @@
 import React from 'react'
 import { SectionBenefit, TitleBenefit, ImageBenefit } from './style'
 import BenefitImage from './BenefitImage.png'
-import { colors } from '../../tokens'
 
 const Benefit= () => {
   return (
