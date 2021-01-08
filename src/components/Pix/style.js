@@ -19,6 +19,7 @@ export const TitlePix = styled.div `
 
   a {
     display: inline-block;
+    position: relative;
     font-weight: bold;
     font-size: 17px;
     color: ${colors.white};
@@ -26,11 +27,13 @@ export const TitlePix = styled.div `
 
     &::after {
       content: '';
+      position: absolute;
       display: block;
       width: 0;
       height: 2px;
       background: ${colors.white};
       transition: .2s;
+      bottom: 15%;
     }
 
     &:hover::after {
