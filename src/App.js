@@ -2,6 +2,7 @@ import Pix from './components/Pix'
 import Benefit from './components/Benefit'
 import Account from './components/Account'
 import CreditCard from './components/CreditCard'
+import Rewards from './components/Rewards'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Benefit />
       <Account />
       <CreditCard />
+      <Rewards />
     </>
   );
 }
